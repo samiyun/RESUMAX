@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router'
 import ScoreCircle from './ScoreCircle'
 
-const resumecard = ({ resume: { id, companyName, jobTitle, feedback, resumePath } }: { resume: Resume}) => {
+const ResumeCard = ({ resume: { id, companyName, jobTitle, feedback, resumePath } }: { resume: Resume}) => {
   return (
     <Link to={`/resume/${id}`} className="resume-card animate-in fade-in duration-1000">
         <div className="resume-card-header">
@@ -19,8 +19,7 @@ const resumecard = ({ resume: { id, companyName, jobTitle, feedback, resumePath 
                 <img
                     src={resumePath}
                     alt="resume"
-                    className="w-full h-350 max-sh:h-[200px] object-cover object-top"
-
+                    className="w-full h-350 max-sm:h-[200px] object-cover object-top"
                 />
             </div>
         </div>
@@ -28,4 +27,4 @@ const resumecard = ({ resume: { id, companyName, jobTitle, feedback, resumePath 
   )
 }
 
-export default resumecard
+export default ResumeCard
