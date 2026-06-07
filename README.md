@@ -1,87 +1,36 @@
-# Welcome to React Router!
+# RESUMAX
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+RESUMAX is a full-stack, AI-powered Applicant Tracking System (ATS) and resume optimization platform. Built to help job seekers navigate modern hiring filters, RESUMAX evaluates, scores, and enhances resumes to ensure they stand out to both automated screening systems and recruiters.
 
 ## Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+- AI-Powered Resume Analysis: Upload your resume and receive an instant score evaluating content quality, ATS structure, and job description alignment.
+- Content Generation: Automatically transform basic job duties into impactful, metrics-driven bullet points using artificial intelligence.
+- Job Description Matching: Paste a target job description to extract key terms and seamlessly identify missing skills or keywords in your current resume.
+- Seamless File Uploads: Secure and intuitive drag-and-drop file uploading interface, powered by React Dropzone.
+- Actionable Feedback: Get granular insights into formatting issues, weak phrasing, and missing sections before you submit your applications.
+- Modern Routing & Architecture: Built utilizing the latest folder structure and routing paradigms of React Router 7 for a fast, seamless application experience.
+
+## Tech Stack
+
+- Frontend Framework: React
+- Routing: React Router 7
+- File Handling: React Dropzone
+- AI Integration: Connected to AI models for deep resume analysis and content generation
+- Deployment: Vercel
 
 ## Getting Started
 
+Follow these instructions to set up RESUMAX on your local machine for development and testing.
+
+### Prerequisites
+
+Ensure you have the following installed on your local environment:
+- Node.js
+- npm or yarn
+
 ### Installation
 
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/samiyun/RESUMAX.git](https://github.com/samiyun/RESUMAX.git)
