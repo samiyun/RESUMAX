@@ -17,7 +17,6 @@ RESUMAX is a full-stack, AI-powered Applicant Tracking System (ATS) and resume o
 - Routing: React Router 7
 - File Handling: React Dropzone
 - AI Integration: Connected to AI models for deep resume analysis and content generation
-- Deployment: Vercel
 
 ## Getting Started
 
